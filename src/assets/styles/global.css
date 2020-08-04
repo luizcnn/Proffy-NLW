@@ -2,7 +2,8 @@
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
-    --color-primary: #8257E5;
+    /* --color-primary: #8257E5; */
+    --color-primary: linear-gradient(to right, #c31432, #240b36);
     --color-primary-dark: #774DD6;
     --color-primary-darker: #6842c2;
     --color-secondary: #04D361;
@@ -49,6 +50,7 @@ textarea {
     font-family: Poppins;
     font-size: 1.6rem; Unidade de medida responsiva */
     font: 500 1.6rem Poppins;
+    color: var(--color-text-base)
 }
 
 .container {
