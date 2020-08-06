@@ -29,7 +29,7 @@
 #page-teacher-form main fieldset legend {
     font: 700 2.4rem Archivo;
     color: var(--color-text-title);
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.2rem;
 
     display: flex;
     align-items: center;
@@ -57,12 +57,35 @@
     margin-top: 2.4rem;
 }
 
-#page-teacher-form main fieldset .select-block  + .input-block {
-    margin-top: 2.4rem;
+#page-teacher-form main .select-block  + .input-block {
+    margin-top: 1.4rem;
 }
 
 #page-teacher-form main label {
     color: var(--color-text-complement);
+}
+
+#page-teacher-form main .schedule-item {
+    margin: 2.4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "day day"
+        "from to";
+    column-gap: 1.6rem;
+}
+
+#page-teacher-form main .schedule-item .select-block {
+    grid-area: day;
+}
+
+#page-teacher-form main fieldset .schedule-item:nth-child(2) {
+    grid-area: from;
+}
+
+#page-teacher-form main fieldset .schedule-item:nth-child(3) {
+    grid-area: to;
 }
 
 #page-teacher-form main footer {
@@ -128,6 +151,20 @@
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
         column-gap: 1.6rem;
+        grid-template-areas: 
+            "day from to";
+    }
+
+    #page-teacher-form main .schedule-item .select-block {
+        grid-area: day;
+    }
+    
+    #page-teacher-form main .schedule-item:nth-child(2) {
+        grid-area: from;
+    }
+    
+    #page-teacher-form main .schedule-item:nth-child(3) {
+        grid-area: to;
     }
 
     #page-teacher-form main .schedule-item .input-block {
