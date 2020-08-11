@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    // Endereço abse do backend
+    // Endereço base do backend
     baseURL: 'http://localhost:3333',
 });
 
