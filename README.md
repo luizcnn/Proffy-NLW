@@ -6,6 +6,15 @@
   <img src="https://img.shields.io/static/v1?label=NodeJs&message=Backend&color=green&style=for-the-badge&logo=NODE"/>
 </div>
 
+## Página inicial:
+<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+## Busca de Professores:
+<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
+## Busca de Professores (Responsivo): 
+<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
+## Cadastro de aulas:
+<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/3.jpeg" />
+
 > Status do Projeto: Concluído :heavy_check_mark:
 
 ## Funcionalidades :trophy:
