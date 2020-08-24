@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/static/v1?label=NodeJs&message=Backend&color=green&style=for-the-badge&logo=NODE"/>
 </div>
 
-> Status do Projeto: Concluído :heavy_check_mark:
+> Status do Projeto: Em desenvolvimento :warning:
 
 ## Página inicial:
 <img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
@@ -60,4 +60,16 @@ ou
 npm start
 ```
 Pronto! Agora é só acessar a aplicação através da url http://localhost:3000/
+
+## Linguagens e Libs utilizadas :books:
+
+- [React](https://reactjs.org/)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [Axios](https://github.com/axios/axios)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Funcionalidades a serem implementadas:
+ - Upload de imagem para avatar de usuário;
+ - Cadastro de usuários
+  - Autenticação de usuários no sistema, com tokens e senha criptografada.
 
