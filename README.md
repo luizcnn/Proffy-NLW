@@ -7,16 +7,16 @@
 </div>
 
 ## Página inicial:
-<img style="width: 50%; height: 50%" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+<img style="width: 270px; height: 480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
 
 ## Busca de Professores:
-<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
+<img style="width: 320px; height: 180px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
 
 ## Busca de Professores (Responsivo): 
-<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
+<img style="width: 270px; height: 480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
 
 ## Cadastro de aulas:
-<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/3.jpeg" />
+<img style="width: 270px; height: 480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/3.jpeg" />
 
 > Status do Projeto: Concluído :heavy_check_mark:
 
