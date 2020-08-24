@@ -7,7 +7,7 @@
 </div>
 
 ## Página inicial:
-<img style="transform: scale(0.5)" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+<img style="width: 50%; height: 50%" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
 
 ## Busca de Professores:
 <img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
