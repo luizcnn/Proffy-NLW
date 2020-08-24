@@ -10,7 +10,7 @@
 <img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
 
 ## Busca de Professores:
-<img width="320px" height="180px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
+<img width="6400px" height="360px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
 
 ## Busca de Professores (Responsivo): 
 <img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
