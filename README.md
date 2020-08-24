@@ -3,12 +3,12 @@
 
 <div style="display: flex, justify-content: center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="https://img.shields.io/static/v1?label=Node.Js&message=Backend&color=green&style=for-the-badge&logo=NODE"/>
+  <img src="https://img.shields.io/static/v1?label=NodeJs&message=Backend&color=green&style=for-the-badge&logo=NODE"/>
 </div>
 
 > Status do Projeto: Concluído :heavy_check_mark:
 
-## Funcionalidades :thropy:
+## Funcionalidades :trophy:
 - Busca de professores cadastrados
   - Busca utilizando filtros como matéria, dia da semana e horário para aula.
 - Cadastro de aulas
