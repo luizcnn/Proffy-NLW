@@ -7,11 +7,14 @@
 </div>
 
 ## Página inicial:
-<img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+<img style="transform: scale(0.5)" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+
 ## Busca de Professores:
 <img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
+
 ## Busca de Professores (Responsivo): 
 <img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
+
 ## Cadastro de aulas:
 <img src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/3.jpeg" />
 
