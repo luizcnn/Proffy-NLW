@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { View, ScrollView, Text, TextInput } from 'react-native';
+import { View, ScrollView, Text, TextInput, KeyboardAvoidingView } from 'react-native';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-community/async-storage'
@@ -91,6 +91,10 @@ function TeacherList() {
     return (
         <View style={styles.container}>
 
+            <KeyboardAvoidingView
+                style={{ flexGrow: 1 }}
+                behavior="position"
+            >
             <PageHeader 
                 title="Proffys Disponíveis" 
                 headerRight={(
@@ -100,45 +104,47 @@ function TeacherList() {
                 )}
             >
                 {isFilterVisible && (
-                    <View style={styles.searchForm}>
-                        <Text style={styles.label}>Matéria</Text>
-                        <TextInput
-                            value={subject}
-                            onChangeText={(text) => setSubject(text)}
-                            style={styles.input}
-                            placeholder="Qual a matéria ?"
-                            placeholderTextColor="#c1bccc"
-                        />
-                        <View style={styles.inputGroup}>
-                            <View style={styles.inputBlock}>
-                                <Text style={styles.label}>Dia da Semana</Text>
-                                <TextInput
-                                    value={week_day}
-                                    onChangeText={(text) => setWeekDay(text)} 
-                                    style={styles.input}
-                                    placeholder="Qual o dia ?"
-                                    placeholderTextColor="#c1bccc"
-                                />
+                        <View style={styles.searchForm}>
+                            <Text style={styles.label}>Matéria</Text>
+                            <TextInput
+                                value={subject}
+                                onChangeText={(text) => setSubject(text)}
+                                style={styles.input}
+                                placeholder="Qual a matéria ?"
+                                placeholderTextColor="#c1bccc"
+                            />
+                            <View style={styles.inputGroup}>
+                                <View style={styles.inputBlock}>
+                                    <Text style={styles.label}>Dia da Semana</Text>
+                                    <TextInput
+                                        value={week_day}
+                                        onChangeText={(text) => setWeekDay(text)} 
+                                        style={styles.input}
+                                        placeholder="Qual o dia ?"
+                                        placeholderTextColor="#c1bccc"
+                                    />
+                                </View>
+                                <View style={styles.inputBlock}>
+                                    <Text style={styles.label}>Horário</Text>
+                                    <TextInput
+                                        value={time}
+                                        onChangeText={(text) => setTime(text)}  
+                                        style={styles.input}
+                                        placeholder="Qual horário ?"
+                                        placeholderTextColor="#c1bccc"
+                                    />
+                                </View>
                             </View>
-                            <View style={styles.inputBlock}>
-                                <Text style={styles.label}>Horário</Text>
-                                <TextInput
-                                    value={time}
-                                    onChangeText={(text) => setTime(text)}  
-                                    style={styles.input}
-                                    placeholder="Qual horário ?"
-                                    placeholderTextColor="#c1bccc"
-                                />
-                            </View>
+
+                            <RectButton style={styles.submitButton} onPress={handleFilterSubmit}>
+                                <Text style={styles.submitButtonText}>Filtrar</Text>
+                            </RectButton>
+
                         </View>
-
-                        <RectButton style={styles.submitButton} onPress={handleFilterSubmit}>
-                            <Text style={styles.submitButtonText}>Filtrar</Text>
-                        </RectButton>
-
-                    </View>
+                    
                 )}
             </PageHeader>
+            </KeyboardAvoidingView>
 
             <ScrollView
                 style={styles.teacherList}
