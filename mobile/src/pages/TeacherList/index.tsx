@@ -45,17 +45,47 @@ function TeacherList() {
     
     async function handleFilterSubmit() { 
         loadFavorites();
-        
+
+        const WeekDay = selectWeekDay(week_day)
+
         const response = await api.get('classes', {
+
             params: {
                 subject,
-                week_day,
+                week_day: WeekDay,
                 time,
             }
         });
         
         setTeachers(response.data)
         toggleFiltersVisibility()
+    }
+
+    function selectWeekDay(week_day: string) {
+        switch (week_day) {
+            case "Domingo" || "domingo":
+                return 0
+            
+            case "Segunda" || "segunda":
+                return 1
+            
+            case "Terça" || "terça":
+                return 2
+
+            case "Quarta" || "quarta":
+                return 3
+            
+            case "Quinta" || "quinta":
+                return 4
+
+            case "Sexta" || "sexta":
+                return 5
+            
+            case "Sábado" || "sábado":
+                return 6 
+            default:
+                return 0    
+        }
     }
 
     return (
