@@ -8,8 +8,11 @@
 
 > Status do Projeto: Em desenvolvimento :warning:
 
-## Página inicial:
-<img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/0.jpeg" />
+## Mobile :iphone:
+<div style="display: flex">
+  <img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.32.18.gif" />
+  <img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.31.29.gif" />
+</div>
 
 ## Busca de Professores:
 <img width="640px" height="360px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/1.jpeg" />
