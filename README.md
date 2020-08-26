@@ -10,8 +10,8 @@
 
 ## Mobile :iphone:
 <div style="display: flex">
-  <img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.32.18.gif" />
-  <img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.31.29.gif" />
+  <img width="225px" height="400px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.32.18.gif" />
+  <img width="225px" height="400px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/mobile/src/assets/images/gifs/WhatsApp-Video-2020-08-26-at-15.31.29.gif" />
 </div>
 
 ## Busca de Professores:
