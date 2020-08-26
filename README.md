@@ -9,16 +9,16 @@
 > Status do Projeto: Em desenvolvimento :warning:
 
 ## Página inicial:
-<img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/0.jpeg" />
+<img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/0.jpeg" />
 
 ## Busca de Professores:
-<img width="640px" height="360px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/1.jpeg" />
+<img width="640px" height="360px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/1.jpeg" />
 
 ## Busca de Professores (Responsivo): 
-<img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/2.jpeg" />
+<img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/2.jpeg" />
 
 ## Cadastro de aulas:
-<img width="270px" height="480px" src="https://github.com/luizcnn/NLW-proffy/blob/master/src/assets/images/3.jpeg" />
+<img width="270px" height="480px" src="https://github.com/luizcnn/Proffy-NLW/blob/master/web/src/assets/images/3.jpeg" />
 
 ## Funcionalidades :trophy:
 - Busca de professores cadastrados
@@ -71,10 +71,27 @@ Para verificar as funcionalidades de cadastro, você deve rodar o servidor do ba
 
 ## Linguagens e Libs utilizadas :books:
 
+### Versão Web:
 - [React](https://reactjs.org/)
 - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
 - [Axios](https://github.com/axios/axios)
 - [TypeScript](https://www.typescriptlang.org/)
+
+### Versão Mobile:
+- [React](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [Axios](https://github.com/axios/axios)
+- [TypeScript](https://www.typescriptlang.org/)
+
+### Backend:
+- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [Ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+- [Knex](http://knexjs.org/)
+- [Cors](https://expressjs.com/en/resources/middleware/cors.html)
+- [SQLite](https://www.sqlite.org/index.html)
+
 
 ## Funcionalidades a serem implementadas:
  - Upload de imagem para avatar de usuário;
